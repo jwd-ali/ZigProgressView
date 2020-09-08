@@ -17,15 +17,6 @@ class ViewController: UIViewController {
         progress.translatesAutoresizingMaskIntoConstraints = false
         return progress
     }()
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-
-    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         progessView.startAnimating(in: self.view)
