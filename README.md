@@ -61,7 +61,7 @@ If you prefer not to use a dependency manager, you can integrate **ZigProgressVi
 
   ## Usage
   
-> If you are using any dependency manager (pods , carthage , package manager)to integrate JProgressView. Import ProgressView first:
+> If you are using any dependency manager (pods , carthage , package manager)to integrate ZigProgressView. Import ProgressView first:
 > ```swift
 > import ZProgressView
 > ```
