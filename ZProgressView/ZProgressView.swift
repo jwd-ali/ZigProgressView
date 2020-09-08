@@ -22,6 +22,8 @@ import UIKit
         }
     }
     
+    public var speed: Double = 1
+    
     //MARK:- Views
     private lazy var shapeLayerA:CAShapeLayer = {
         let circularLayer = CAShapeLayer()
@@ -111,13 +113,13 @@ import UIKit
         }
         layoutIfNeeded()
         
-        shapeLayerB.strokeAnimation(duration: 1,from:1 , to:0)
-        shapeLayerA.strokeAnimation(duration: 1,from:0,to:1)
+        shapeLayerB.strokeAnimation(duration: speed,from:1 , to:0)
+        shapeLayerA.strokeAnimation(duration: speed,from:0,to:1)
         
         let frameA = CGRect(origin: CGPoint(x: bounds.midX + bounds.midX/2 , y: strokeWidth/2), size: CGSize(width: self.bounds.midX, height: self.bounds.height))
         
-        self.shapeLayerA.animatePosition(xPoint: shapeLayerB.position.x, duration: 1)
-        self.shapeLayerB.animatePosition(xPoint:frameA.midX , duration: 1)
+        self.shapeLayerA.animatePosition(xPoint: shapeLayerB.position.x, duration: speed)
+        self.shapeLayerB.animatePosition(xPoint:frameA.midX , duration: speed)
     }
     
     
