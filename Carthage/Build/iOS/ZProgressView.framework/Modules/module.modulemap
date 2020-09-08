@@ -1,0 +1,11 @@
+framework module ZProgressView {
+  umbrella header "ZProgressView.h"
+
+  export *
+  module * { export * }
+}
+
+module ZProgressView.Swift {
+    header "ZProgressView-Swift.h"
+    requires objc
+}

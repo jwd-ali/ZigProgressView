@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0b4e73e5e754ff3d80abf06350fdd55fef89fee2",
+  "iOS" : [
+    {
+      "name" : "ZProgressView",
+      "hash" : "b49876b51376e81fc4a4458d529700e64c2e0f1baf6a070033eeba70398585bd",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}
