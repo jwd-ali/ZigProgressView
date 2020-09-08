@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZigProgressView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "ProgressView framework"
   s.description  = <<-DESC
                   You can add elegant progress animation in your view with just 2 line of code
